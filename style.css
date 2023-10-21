@@ -1,0 +1,44 @@
+/* Style for the code editor */
+.code-editor {
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    font-family: 'Courier New', monospace;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style for the code toolbar */
+.code-toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Style for the buttons */
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the code container */
+#code-container {
+    white-space: pre-wrap;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Lock button modifier style */
+#lock-button.locked {
+    background-color: #f00;
+}
